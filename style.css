@@ -1,0 +1,192 @@
+
+body {
+  background-color: #fff;
+font-family: 'Roboto';
+size: 1440px;
+}
+ 
+.navbar-items{
+   
+   width: 100px;
+}
+
+.navbar-nav{
+ display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 600;
+  font-size: 20px;
+ height: 53px;
+  width: 180px;
+  position: relative;
+  text-decoration: none;
+   background-color: rgba(135, 133, 134, 0.7);
+}
+
+.navbar-nav .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100px;
+  height: 2px;
+  background-color: #FCC236; 
+}
+ 
+  .section-heading {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .custom-underline {
+    width: 400px;
+    height: 4px;
+    background-color: #878586;
+    border-radius: 5px;
+    margin: 8px 0 20px 0;
+  }
+
+  .read-more-btn {
+    background-color: #FCC236;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 25px;
+  }
+
+  .read-more-btn:hover {
+    background-color: #e0aa2d;
+  }
+
+  .main-image {
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .overlay-image {
+    position: absolute;
+    bottom: -30px;
+    left: 300px;
+    border: 3px solid #FCC236;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    background: white;
+  }
+
+  @media (max-width: 767px) {
+    .overlay-image {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+
+  
+  .achievements-section {
+    background-color: #FCC236;
+    padding: 60px 20px;
+    color: #000;
+  }
+
+  .section-title {
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    width: 270px;
+    height: 3px;
+    background-color: #878586;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+  }
+
+  .achievement-text {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  .stats-box {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .stats-box i {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+
+  .stats-value {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .stats-label {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  @media (max-width: 767px) {
+    .stats-box {
+      margin-top: 40px;
+    }
+  }
+ 
+  .logo-section{
+    background-color: #fff;
+  }
+  
+ 
+   .project-section {
+  background-image: url('assets/projectbg.png'); 
+  background-size: cover;
+  background-position: center;
+ height:401px;
+}
+
+   .ser-section {
+  background-image: url('assets/serbg.png'); 
+  background-size: cover;
+  background-position: center;
+ height:401px;
+}
+
+   .aboutus-section {
+  background-image: url('assets/aboutbg.png'); 
+  background-size: cover;
+  background-position: center;
+ height:401px;
+}
+
+   .contactus-section {
+  background-image: url('assets/conbg.png'); 
+  background-size: cover;
+  background-position: center;
+ height:401px;
+}
+
+.card-title{
+  font-size: 22px;
+  font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.card-text{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.card{
+   box-shadow: 0 4px 20px rgba(135, 133, 134, 0.8);
+}

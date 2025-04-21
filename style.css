@@ -148,29 +148,31 @@ size: 1440px;
   }
   
  
-   .project-section {
-  background-image: url('assets/projectbg.png'); 
+ .project-section {
+  background-image: url('assets/main/construction-site_53876-31720.avif');
   background-size: cover;
   background-position: center;
- height:401px;
+  background-repeat: no-repeat;
+  height: 540px;
 }
 
+
    .ser-section {
-  background-image: url('assets/serbg.png'); 
+  background-image: url('assets/main/civil-engineer-construction-worker-architects-wearing-hardhats-safety-vests-are-working-together-construction-site-building-home-cooperation-teamwork-concept_640221-172.avif'); 
   background-size: cover;
   background-position: center;
  height:401px;
 }
 
    .aboutus-section {
-  background-image: url('assets/aboutbg.png'); 
+  background-image: url('assets/main/architecture-concept-with-notepad_23-2147813119.jpg'); 
   background-size: cover;
   background-position: center;
  height:401px;
 }
 
    .contactus-section {
-  background-image: url('assets/conbg.png'); 
+  background-image: url('assets/main/medium-shot-architect-talking-phone_23-2148751953.jpg'); 
   background-size: cover;
   background-position: center;
  height:401px;

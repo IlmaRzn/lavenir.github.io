@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA VENIR CONSULTANTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 15px;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .project-images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .small-img, .large-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            aspect-ratio: 1 / 1; 
+            object-fit: cover;
+        }
+
+        @media (min-width: 992px) { 
+            .project-container {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+
+        @media (max-width: 991.98px) and (min-width: 768px) {
+            .project-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 767.98px) { 
+            .project-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="project-section " id="project-section" >
+        <nav class="navbar navbar-expand-lg d-flex space-between ">
+
+            <div class="col-md-3 text-center" >
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="LV Logo" height="50" style="height: 99px; width: 140px;" />
+                </a>
+            </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-items  collapse navbar-collapse  " id="navbarNav" >
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active fw-bold" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="project.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="service.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="aboutUs.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+    </nav>
+</div>
+
+<div class="d-grid px-3 px-md-5 my-5">
+    <p class="text-black fw-bold fs-4">Stores</p>
+    <div style="width: 150px; height: 3px; background-color: #FCC236; margin-bottom: 15px;"></div>
+
+    <div class="project-container">
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BARK AL RAYYAN FOOD STORE/FRONT ELEVATION 1.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BARK AL RAYYAN FOOD STORE/FRONT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BARK AL RAYYAN FOOD STORE/LEFT ELEVATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+       
+     <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BARK AL RAYYAN FOOD STORE/REAR ELEVATION FROM LEFT SIDE.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BARK AL RAYYAN FOOD STORE/RIGHT ELEVATION FROM FRONT SIDE.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/FRONT ELEVATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/LEFT ELEVATION FROM REAR.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/LEFT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/REAR ELEVATION ACCOMODATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/REAR ELEVATION STORE.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BIN YOUSUF STORE/RIGHT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/LEFT ELEVATION FROM FRONT.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/LEFT ELEVATION FROM REAR.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/LEFT ELEVATION FROM SIKKA.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/OFFICE (G+1) DOOR & WINDOWS.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/OFFICE (G+1) LEFE ELEVATION.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/REAR ELEVATION.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/RIGHT ELEVATION.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/STORE MAIN ENTRANCE.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/BUILDING MATERIAL STORE/STORE VIEW FROM ROAD.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/FRONT & LEFT ELEVATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/FRONT ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/FRONT VIEW OF PLOT.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/GUARD ROOM.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/LEFT & REAR ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/MEZZANINE FLOOR.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/REAR ELEVATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/RIGHT & REAR ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/durrat al doha/RIGHT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/1.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/10.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/2.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/3.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/4.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/5.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/6.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/7.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/8.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FOOD STORE/9.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/1.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/2.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/3.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/4.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/5.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/6.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/7.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/FURNITURE STORE/8.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/ENTRANCE & GUARD ROOM.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/FRONT ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/GROUND FLOOR OFFICE.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/GUARD ROOM & PARKING.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/IMG-20230717-WA0228.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/IMG-20230717-WA0234.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/IMG-20230717-WA0240.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/LEFT ELEVATION FRONT.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/LEFT ELEVATION REAR.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/OPEN STORE.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/REAR ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/GRAND STORE/RIGHT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/INITIAL 3 PHOTOS/6.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/INITIAL 3 PHOTOS/7.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/INITIAL 3 PHOTOS/8.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/JAMEELA STORE/FRONT & RIGHT ELEVATION.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/JAMEELA STORE/FRONT ELEVATION.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/JAMEELA STORE/LEFT ELEVATION.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/JAMEELA STORE/REAR ELEVATION.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/JAMEELA STORE/STORE STAIR.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/FRONT ELEVATION FROM RIGHT SIDE.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/FRONT ELEVATION FROM ROAD.jpg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/GUARD ROOM.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/LEFT ELEVATION ACCOMODATION (G+2).jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/LEFT ELEVATION SHOW ROOM + OFFICE.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/LEFT ELEVATION.jpg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/REAR ELEVATION.jpg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/RIGHT ELEVATION FROM FRONT.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/SHOW ROOM + OFFICE FRONT ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/SHAIF AL DIMASKI FOOD STORE/STORE FRONT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/ACCOMODATION GROUND.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/ACCOMODATION ROOF.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/FRONT ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/LEFT ELEVATION FROM FRONT.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/LEFT ELEVATION FROM REAR.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/OFFICE FRONT.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/OFFICE ROOF.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/REAR ELEVATION.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/REAR ELEVATION.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/RIGHT ELEVATION FROM REAR.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/STORE LAMODA/STORE STAIR.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/1.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/2.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/3.jpeg" alt="Villa Image 1" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/4.jpeg" alt="Villa Image 2" class="small-img" />
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/5.jpeg" alt="Villa Main Image" class="large-img" />
+            </div>
+        </div><div class="project-card">
+            <div class="project-images">
+                <img src="assets/OUR PROJECTS/stores/URBAN WING STORE/6.jpeg" alt="Villa Image 1" class="small-img" />
+               
+            </div>
+        </div>
+    </div>
+
+    <a href="project.html" class="btn text-black fw-bold contact-btn"style="background-color: #FCC236; margin-top: 10px;">Back to Projects</a>
+</div>
+
+
+    </div>
+    <div id="footer-section"></div>
+
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-section").innerHTML = data;
+            });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

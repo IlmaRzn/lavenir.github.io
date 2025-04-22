@@ -9,7 +9,43 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
  <style>
-   
+    .ser-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            padding: 15px;
+        }
+
+        .ser-header {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto; 
+            margin-bottom: 10px;
+        }
+
+        .image-row img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            object-fit: cover;
+            flex-shrink: 0; 
+        }
+
+        @media (min-width: 768px) {
+            .image-row {
+                flex-wrap: wrap;
+            }
+
+            .image-row img {
+                width: calc(33.33% - 10px); 
+            }
+        }
   </style>
 </head>
 <body>
@@ -41,101 +77,64 @@
 
 
    <div class="container my-5 px-3">
-        <h2 class="fw-bold text-black mb-4">MEP Drawings Submission & Approval Process in Qatar</h2>
         
-        <div class="row" style="justify-content: center;justify-items: center;">
-            <div class="col-md-6">
-                <img src="assets/main/flow2.png" alt="Detailed Image 1" class="img-fluid mb-4">
+         <div class="container px-3 px-md-5 my-5">
+        
+        <div class="ser-container">
+            <div class="ser-header">Exterior</div>
+            <div class="image-row">
+                <img src="assets/EXTERIOR/1-AA.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/COMPOUND (1).jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/COMPOUND (2).jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 1.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 12.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 4.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 5.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 6.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 7.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/EXT 8.jpg" alt="Palace Image 1" />
+                <img src="assets/EXTERIOR/HEALTH CENTRE (1).jpg" alt="Palace Image 1" />
+                
                 </div>
-           
         </div>
 
-         <div class="container py-5">
         
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="step-box">
-                    <strong>1. Initial Meeting with Client</strong><br>
-                    Discuss client requirements, building usage, systems needed (HVAC, lighting, water, etc.), and budget.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>2. Review of Architectural Drawings</strong><br>
-                    Study the architectural plans to understand the layout, spaces, and coordination needs.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>3. Preliminary MEP Design Proposal </strong><br>
-                    Prepare a basic MEP design concept considering regulatory requirements and building functionality.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>4. Client Feedback & Concept Revisions </strong><br>
-                    Present the initial concept to the client, receive feedback, and revise accordingly.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>5. Detailed MEP Drawings Development</strong><br>
-                    Prepare comprehensive MEP drawings, including:
-•	HVAC system layouts
-•	Lighting and power plans
-•	Plumbing and drainage systems
-•	Fire fighting and fire alarm layouts
 
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>6.Internal Coordination with Architect & Structural Engineer</strong><br>
-                   Check for clashes, space constraints, and ensure full alignment between disciplines.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>7.  Pre-Submission Compliance Check</strong><br>
-                   Verify drawings meet Qatar Civil Defense (QCDD), Kahramaa, Ashghal, and Baladiya requirements.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>8. Submission to Municipality / Relevant Authority</strong><br>
-                  Submit to the local Baladiya or Online Building Permit System (OBPS) along with architectural and structural drawings.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>9.Municipality Review & Feedback</strong><br>
-                   Authorities review MEP drawings for compliance with codes and regulations.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>10.Comments / Required Modifications</strong><br>
-                   If comments or rejections are issued:
-•	Analyze feedback
-•	Discuss with client if major changes are needed
+        <div class="ser-container">
+            <div class="ser-header">Interior</div>
+            <div class="image-row">
+                <img src="assets/INTERIOR/1.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/2.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/3.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/4.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/5.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/6.jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (1).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (1).png" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (10).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (11).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (12).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (13).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (14).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (15).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (16).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (17).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (18).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (19).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (2).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (2).png" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (20).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (3).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (3).png" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (4).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (5).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (6).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (7).jpg" alt="Palace Image 1" />
+                <img src="assets/INTERIOR/Interior (8).jpg" alt="Palace Image 1" />
 
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>11.Drawings Revision & Correction</strong><br>
-                   Modify MEP drawings based on municipality comments, ensuring accuracy and compliance.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>12. Resubmission of Revised Drawings</strong><br>
-                   Submit the corrected drawings for a second review.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>13. Final Approval of MEP Drawings</strong><br>
-                   Once approved, drawings are cleared for use.
-                </div>
-                <div class="arrow">&darr;</div>
-                <div class="step-box">
-                    <strong>14. Final Approval of Building Permit</strong><br>
-                    After all (architectural, structural, and MEP) disciplines are approved, the building permit is issued, allowing construction to begin.
-                </div>
-                
             </div>
         </div>
-    </div>
-      
+
         <a href="service.html" class="btn text-black fw-bold contact-btn"style="background-color: #FCC236;">Back to Services</a>
     </div>
  

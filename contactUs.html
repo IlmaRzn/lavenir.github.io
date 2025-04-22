@@ -80,7 +80,18 @@
            margin-left: -50px;
             overflow: hidden; 
         }
-        
+        @media (max-width: 767.98px) {
+  .address-section {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .address-card {
+    width: 100% !important;
+    max-width: 400px;
+  }
+}
+
     </style>
 </head>
 <body>
@@ -114,7 +125,7 @@
   <p class="text-black" style="font-size: 26px; font-weight: 700;">CONTACT US</p>
     <div style="width: 125px; height: 3px; background-color: #FCC236; margin-bottom: 15px;"></div>
     
- <div class="container" >
+ <div class="container" style="margin-left: -40px;" >
         <div class="contact-container">
             
             <form class="contact-form" style="box-shadow: 0 8px 16px rgba(0,0,0,0.5);">
